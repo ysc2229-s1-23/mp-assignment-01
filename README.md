@@ -4,8 +4,8 @@ This is the second assignment for Introduction to Data Structures and Algorithms
 
 ## Overview
 
-- **Total Questions:** 18
-  - **Linked Lists:** 6 questions
+- **Total Questions:** 17
+  - **Linked Lists:** 5 questions
   - **Arrays:** 5 questions
   - **Stacks:** 5 questions
   - **Queues:** 2 questions
@@ -27,7 +27,6 @@ This is the second assignment for Introduction to Data Structures and Algorithms
 3. `linked_list_palindrome.py`
 4. `linked_list_reverse_sublist.py`
 5. `linked_list_reverse_every_k_sublist.py`
-6. `linked_list_next_greater_value.py`
 
 ### Stacks
 
@@ -67,4 +66,4 @@ To submit your assignment, please push your code to the repository. You can push
 
 ## Final Note
 
-All questions in this problem set can be solved using only array, linked list, stacks, and queues knowledge. You do not need to use any other data structures or algorithms, for instance a hashmap. If you find yourself using other data structures or algorithms, you are probably overthinking the problem.
+All questions in this problem set can be solved using only array, linked list, stacks, and queues concepts. You do not need to use any other data structures or algorithms, for instance a hashmap. If you find yourself using other data structures or algorithms, you are probably overthinking the problem.
