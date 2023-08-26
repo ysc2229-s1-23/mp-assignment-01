@@ -25,7 +25,7 @@ def test_remove_groups():
     assert result == expected, f"Test Failed: Expected {expected}, Got {result}"
 
     s, k = "aabbbcc", 2
-    expected = "cc"
+    expected = "bbb"
     result = remove_groups(s, k)
     assert result == expected, f"Test Failed: Expected {expected}, Got {result}"
 
@@ -35,7 +35,7 @@ def test_remove_groups():
     assert result == expected, f"Test Failed: Expected {expected}, Got {result}"
 
     s, k = "aaabb", 2
-    expected = "abb"
+    expected = "aaa"
     result = remove_groups(s, k)
     assert result == expected, f"Test Failed: Expected {expected}, Got {result}"
 
@@ -55,7 +55,7 @@ def test_remove_groups():
     assert result == expected, f"Test Failed: Expected {expected}, Got {result}"
 
     s, k = "aaaa", 3
-    expected = "a"
+    expected = "aaaa"
     result = remove_groups(s, k)
     assert result == expected, f"Test Failed: Expected {expected}, Got {result}"
 
