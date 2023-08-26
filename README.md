@@ -1,4 +1,4 @@
-# Introduction to Data Structures and Algorithms - Assignment 2
+# Introduction to Data Structures and Algorithms - MP1
 
 This is the second assignment for Introduction to Data Structures and Algorithms YSC2229. This problem set focuses on Arrays, Linked Lists, Stacks, and Queues.
 
