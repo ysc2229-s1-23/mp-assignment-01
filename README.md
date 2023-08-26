@@ -4,11 +4,12 @@ This is the second assignment for Introduction to Data Structures and Algorithms
 
 ## Overview
 
-- **Total Questions:** 17
+- **Total Questions:** 20
   - **Linked Lists:** 5 questions
   - **Arrays:** 5 questions
   - **Stacks:** 5 questions
   - **Queues:** 2 questions
+  - **Binary Trees:** 3 questions
 
 ## Recommended Sequence
 
@@ -19,6 +20,11 @@ This is the second assignment for Introduction to Data Structures and Algorithms
 3. `quadruple_sum.py`
 4. `conflicting_appointments.py`
 5. `dutch_flag.py`
+
+### Binary Trees
+1. `binary_tree_level_order_traversal.py`
+2. `binary_tree_zigzag_traversal.py`
+3. `binary_tree_path_sum.py`
 
 ### Linked Lists
 
