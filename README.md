@@ -5,11 +5,11 @@ This is the second assignment for Introduction to Data Structures and Algorithms
 ## Overview
 
 - **Total Questions:** 20
+  - **Arrays:** 4 questions
   - **Linked Lists:** 5 questions
-  - **Arrays:** 5 questions
-  - **Stacks:** 5 questions
-  - **Queues:** 2 questions
-  - **Binary Trees:** 3 questions
+  - **Binary Trees:** 2 questions
+  - **Stacks:** 6 questions
+  - **Queues:** 3 questions
 
 ## Recommended Sequence
 
@@ -18,13 +18,11 @@ This is the second assignment for Introduction to Data Structures and Algorithms
 1. `two_sum.py`
 2. `triplet_sum.py`
 3. `quadruple_sum.py`
-4. `conflicting_appointments.py`
-5. `dutch_flag.py`
+4. `dutch_flag.py`
 
 ### Binary Trees
-1. `binary_tree_level_order_traversal.py`
-2. `binary_tree_zigzag_traversal.py`
-3. `binary_tree_path_sum.py`
+1. `binary_tree_zigzag_traversal.py`
+2. `binary_tree_path_sum.py`
 
 ### Linked Lists
 
@@ -36,16 +34,18 @@ This is the second assignment for Introduction to Data Structures and Algorithms
 
 ### Stacks
 
-1. `daily_temperatures.py`
-2. `remove_duplicate_letters.py`
-3. `remove_duplicate_elements_2.py`
-4. `smallest_number_removing_k_digits.py`
-5. `maximum_width_ramp.py`
+1. `validate_expression.py`
+2. `daily_temperatures.py`
+3. `remove_duplicate_letters.py`
+4. `remove_duplicate_elements_2.py`
+5. `smallest_number_removing_k_digits.py`
+6. `maximum_width_ramp.py` 
 
 ### Queues
 
 1. `longest_continuous_subarray.py`
 2. `continuous_subarrays.py`
+3. `circular_queue.py`
 
 This sequence is just a suggestion. You can solve the problems in any order you like. However, this sequence guides you to solve problems that build on top of one another.
 
