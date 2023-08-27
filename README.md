@@ -73,3 +73,8 @@ To submit your assignment, please push your code to the repository. You can push
 ## Final Note
 
 All questions in this problem set can be solved using only array, linked list, stacks, and queues concepts. You do not need to use any other data structures or algorithms, for instance a hashmap. If you find yourself using other data structures or algorithms, you are probably overthinking the problem.
+
+## Assignment Access
+To create your own copy of the assignment, kindly click on the link below: 
+[Fork the Assignment](https://classroom.github.com/a/Ztq533Z-)
+
