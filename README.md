@@ -77,6 +77,6 @@ All questions in this problem set can be solved using only array, linked list, s
 
 ## Assignment Access
 To create your own copy of the assignment, kindly click on the link below: 
-[Fork the Assignment](https://classroom.github.com/a/kC2q_l7Z)
+[Fork the Assignment](https://classroom.github.com/a/ZenrU8rX)
 
 
