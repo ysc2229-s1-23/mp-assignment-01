@@ -52,7 +52,7 @@ This sequence is just a suggestion. You can solve the problems in any order you 
 ## Getting Help
 
 - **Discussion Post:** If you have general questions about the problems, please post them in the discussion post.
-- **Pull Requests:** If you want to ask private questions about your code, please commit your changes, push them, and create a pull request. 
+- **Pull Requests:** If you want to ask specific questions about your code, please commit your changes, push them, and create a pull request. Although, you can also post specific questions about your code in the GitHub discussions section.
 - **Errors / Bugs / Private Queries:** If you find any errors or bugs in the problem set, please telegram a message to @yokurang or email @alan.matthew@u.yale-nus.edu.sg.
 
 ## Testing
