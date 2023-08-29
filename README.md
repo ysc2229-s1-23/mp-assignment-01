@@ -52,7 +52,8 @@ This sequence is just a suggestion. You can solve the problems in any order you 
 ## Getting Help
 
 - **Discussion Post:** If you have general questions about the problems, please post them in the discussion post.
-- **Errors / Bugs / Private Queries:** If you find any errors or bugs in the problem set, please telegram a message to @yokurang or email @alan.matthew@u.yale-nus.edu.sg. Furthermore, if you have any urgent or private queries about the problem set or setting up the assignment on your computer, please telegram or email me.
+- **Pull Requests:** If you want to ask specific questions about your code, please commit your changes, push them, and create a pull request. Although, you can also post specific questions about your code in the GitHub discussions section.
+- **Errors / Bugs / Private Queries:** If you find any errors or bugs in the problem set, please telegram a message to @yokurang or email @alan.matthew@u.yale-nus.edu.sg.
 
 ## Testing
 
@@ -73,3 +74,9 @@ To submit your assignment, please push your code to the repository. You can push
 ## Final Note
 
 All questions in this problem set can be solved using only array, linked list, stacks, and queues concepts. You do not need to use any other data structures or algorithms, for instance a hashmap. If you find yourself using other data structures or algorithms, you are probably overthinking the problem.
+
+## Assignment Access
+To create your own copy of the assignment, kindly click on the link below: 
+[Fork the Assignment](https://classroom.github.com/a/ZenrU8rX)
+
+
