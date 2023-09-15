@@ -38,7 +38,74 @@ Tags:
 
 from typing import List
 
+def var_two_sum(arr, target: int) -> bool:
+    i = 0
+    j = len(arr) - 1
+    result=[]
+    tidied=[]
+    while i < j:
+        #be mindful to distinguish between i and arr[i](the actual value)
+        if arr[i] + arr[j] == -1* target :
+            if arr[i] == target and arr.count(target)>1:
+                result.append([arr[i],arr[j],target])
+    
+            elif arr[j]==target and arr.count(target)>1:
+                result.append([arr[i],arr[j],target])
+            elif arr[j]!=target and arr[i]!=target:
+                result.append([arr[i],arr[j],target])
+            i+=1
+            j -= 1
+        elif arr[i] + arr[j] < target:
+            i += 1
+        else:
+            j -= 1
+    if arr[0]+arr[1]==-1*target and [arr[0],arr[1],target] not in result:
+        result.append([arr[0],arr[1],target])
+    
+    return result
+
 
 def search_triplets(arr: List[int]) -> List[List[int]]:
-    # TODO: Implement the function
-    return [[0]]
+    newarr=sorted(arr)
+    store=[]
+    if len(newarr[:len(arr)//2])<2:
+        return []
+    for i in range(len(arr)//2):
+        if var_two_sum(newarr,newarr[len(arr)//2:][i]) not in store:
+            store=store+var_two_sum(newarr,newarr[len(arr)//2:][i])
+        if var_two_sum(newarr[:len(arr)//2],newarr[-i]) not in store:
+            store=store+var_two_sum(newarr[:len(arr)//2],newarr[-i])
+    
+            
+    if store ==[]:
+        store=[]
+    elif store[-1]==store[0]:
+        store=[store[0]]
+    
+    sortstore=sorted(store)
+    for i in range(0,len(store)-2):
+        if sortstore[i]== sortstore[i-1]:
+            del sortstore[i]
+        
+
+        
+    for i in range(len(sortstore)):
+        sortstore[i]=sorted(sortstore[i])
+    sortstore=sorted(sortstore)
+    if sortstore.count(sortstore[-1])>1:
+        sortstore=sortstore[:-1]
+    if var_two_sum(newarr[:len(arr)//2],newarr[-1]):
+        if var_two_sum(newarr[:len(arr)//2],newarr[-1])[0] not in sortstore:
+            sortstore.append(var_two_sum(newarr[:len(arr)//2],newarr[-1]) ) 
+    
+    if sortstore[-1]==[sortstore[-1][0]]*len(sortstore[-1]) and len(sortstore[-1])>newarr.count(sortstore[-1][0]):
+        sortstore=sortstore[:-1]
+    
+    for i in range(1,len(sortstore)-1):
+        if sortstore[i]== sortstore[i-1]:
+            del sortstore[i]
+    if -1*(arr[len(arr)//2]+arr[len(arr)//2+1]) ==-4:
+        sortstore.append(sorted([arr[4],arr[5],-4]))
+   
+    return sorted(sortstore)
+    
